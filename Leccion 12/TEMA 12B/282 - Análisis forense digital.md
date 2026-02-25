@@ -1,0 +1,5 @@
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+4.8 Explicar las actividades adecuadas de respuesta a incidentes.
+
+El análisis forense digital implica examinar la evidencia recopilada de los sistemas informáticos y las redes para descubrir información relevante, como archivos eliminados, marcas de tiempo, actividad del usuario y tráfico no autorizado. Existen muchos procesos y herramientas para adquirir diferentes tipos de evidencia digital de hosts y redes de computadoras. Estos procesos deben demostrar exactamente cómo se adquirió la evidencia y que es una copia fiel del estado del sistema en el momento del evento. La documentación es fundamental para recopilar, preservar y presentar pruebas digitales válidas. Los errores o lagunas en el registro del proceso pueden llevar a que se rechacen las pruebas. Si bien es posible que no sea responsable de liderar la adquisición de evidencia, debe estar familiarizado con los procesos y herramientas utilizados, para que pueda brindar asistencia según sea necesario.

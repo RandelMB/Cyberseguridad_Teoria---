@@ -1,0 +1,37 @@
+
+El término Internet de las cosas (IoT) se refiere a la red de dispositivos físicos, vehículos, electrodomésticos y otros objetos integrados con sensores, software y conectividad, que les permite recopilar e intercambiar datos. 
+
+Los sensores son pequeños dispositivos diseñados para detectar cambios en el entorno físico, como temperatura, humedad y movimiento. Por otro lado, los actuadores pueden realizar acciones basadas en datos recopilados por sensores, como encender una luz o ajustar un termostato. Los dispositivos IoT se comunican entre sí y con otros sistemas (a menudo basados en la nube pública) a través de Internet para intercambiar datos y recibir instrucciones. Los sistemas basados en la nube forman un componente indispensable de las infraestructuras de IoT, ya que proporcionan la potencia computacional necesaria para realizar análisis de datos sobre los grandes volúmenes de datos generados por los dispositivos de IoT.
+
+Ejemplos de IoT
+Actualmente, existen numerosos dispositivos y aplicaciones de IoT en uso. Por ejemplo, los hogares inteligentes a menudo utilizan sensores y actuadores de IoT para controlar la iluminación, la temperatura y los sistemas de seguridad, lo que permite a los propietarios monitorear y ajustar sus hogares de forma remota. Las ciudades inteligentes también utilizan IoT para gestionar el tráfico, controlar la calidad del aire y mejorar la seguridad pública. En el sector de la salud, los dispositivos IoT, como dispositivos portátiles e implantables, tienen la capacidad de recopilar datos sobre la salud del paciente y enviarlos a los proveedores de atención médica para su posterior análisis. En el sector agrícola, los sensores de IoT se utilizan para monitorear las condiciones del suelo, los patrones climáticos y el crecimiento de los cultivos, lo que permite que los agricultores puedan tomar decisiones más informadas sobre la siembra y la cosecha. Los dispositivos IoT se utilizan para mejorar la eficiencia, la comodidad y la calidad de vida en una amplia gama de industrias y aplicaciones.
+
+Factores que impulsan la adopción de IoT
+Diversos factores impulsan la rápida adopción de IoT. La notable disminución en el costo de los sensores y dispositivos de IoT en los últimos años los volvió más asequibles y accesibles para las empresas y los consumidores. Esto permitió el desarrollo de una amplia gama de aplicaciones y servicios de IoT que antes eran demasiado costosos de implementar. Los avances en tecnología de conectividad, como 5G y redes inalámbricas de baja potencia, optimizaron la conexión y gestión de grandes cantidades de dispositivos de IoT de manera más eficiente. Esto también mejoró la velocidad y la confiabilidad de la transmisión de datos, permitiendo el monitoreo y respuesta en tiempo real. La enorme explosión de datos generados por los dispositivos IoT impulsó el desarrollo de nuevas herramientas y técnicas de análisis de datos, como el aprendizaje automático y la inteligencia artificial, que ayudan a las organizaciones a analizar grandes volúmenes de datos y extraer información valiosa.
+
+La pandemia por COVID-19 aceleró la adopción de IoT en muchas industrias, en particular en el sector de la salud, donde el monitoreo remoto y la telemedicina se volvieron cada vez más importantes. Conforme más organizaciones reconozcan el valor de IoT, es probable que su adopción continúe aumentando en los próximos años.
+
+Riesgos de seguridad asociados con IoT
+Existen varios riesgos de seguridad significativos asociados con el Internet de las cosas. Un riesgo importante es el gran número de dispositivos IoT implementados sin las medidas de seguridad adecuadas. Muchos dispositivos IoT están diseñados con potencia de procesamiento y memoria limitadas, lo que dificulta la implementación de controles de seguridad sólidos. Esto puede hacerlos vulnerables a ciberataques, comprometiendo la privacidad de los datos, la integridad del sistema y la seguridad física.
+
+Otro riesgo a considerar radica en la necesidad de una mayor estandarización en los dispositivos y protocolos de IoT. Los problemas de compatibilidad pueden dificultar la integración de diferentes dispositivos y servicios de IoT. Además, puede dificultar la implementación de controles de seguridad, ya que diferentes dispositivos pueden tener distintos requisitos y protocolos de seguridad, lo que los hace incompatibles. 
+
+El volumen masivo de datos generado por los dispositivos de IoT puede dificultar la seguridad y protección de la información sensible. Conforme aumenta el número de dispositivos conectados a Internet, se incrementa el riesgo de violaciones de datos y ciberataques, lo que puede resultar en el robo de información personal y confidencial.
+
+Algunos ejemplos de problemas de seguridad ocasionados por la implementación o el uso del Internet de las cosas (IoT) incluyen el ataque de botnet Mirai, que infectó millones de dispositivos IoT y los utilizó para lanzar ataques masivos de denegación de servicio distribuido (DDoS) en sitios web y servicios en línea. En otro caso, un casino fue hackeado a través de un termómetro inteligente en una pecera, que se utilizó como puerta trasera para acceder a la red del casino. También hubo casos de dispositivos IoT hackeados para espiar a personas, como monitores para bebés y cámaras de seguridad para el hogar.
+
+“Un casino es hackeado a través de un termómetro de su acuario conectado a Internet”
+
+https://thehackernews.com/2018/04/iot-hacking-thermometer.html
+
+Los dispositivos IoT a menudo presentan características de seguridad deficientes por varias razones. Estos dispositivos suelen estar diseñados para centrarse en la funcionalidad en detrimento de la seguridad, lo que presenta además limitaciones en cuanto a la potencia de procesamiento y memoria, y dificulta la implementación de controles de seguridad robustos. Muchos dispositivos IoT, deben mantener los costos bajos, lo que representa un desafío para los fabricantes en cuanto a la priorización de características de seguridad en sus procesos de diseño y desarrollo. Muchos dispositivos IoT se lanzan al mercado sin las pruebas de seguridad adecuadas, lo que resulta en vulnerabilidades que los ciberdelincuentes pueden explotar. 
+
+Además, los consumidores y las organizaciones necesitan una mayor conciencia de los riesgos de seguridad asociados con estos dispositivos. Muchos usuarios y organizaciones no son conscientes de la vulnerabilidad de sus dispositivos ante ciberataques, y es muy probable que no adopten las medidas necesarias para protegerse, como cambiar las contraseñas predeterminadas o actualizar el firmware.
+
+Guía de mejores prácticas para IoT
+Los siguientes recursos ofrecen orientación sobre la implementación segura de IoT:
+
+- Fundación para la seguridad de Internet de las cosas (IoTSF) - https://iotsecurityfoundation.org
+- Marco de seguridad del Consorcio industrial de internet (IIC) - https://www.iiconsortium.org/iisf/
+- Marco de controles de seguridad para IoT de la Alianza de seguridad en la nube (CSA) - https://cloudsecurityalliance.org/artifacts/iot-security-controls-framework
+- Estándares de seguridad para IoT del Instituto Europeo de Normas de Telecomunicaciones (ETSI) - https://www.etsi.org/technologies/consumer-iot-security

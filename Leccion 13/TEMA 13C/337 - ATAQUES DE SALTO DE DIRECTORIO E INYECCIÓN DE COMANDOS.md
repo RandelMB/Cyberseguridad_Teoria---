@@ -1,0 +1,11 @@
+El salto de directorio es otro tipo de ataque de inyección realizado contra un servidor web. El actor de amenaza envía una solicitud de un archivo fuera del directorio raíz del servidor web enviando una ruta para navegar al directorio principal (../). Este ataque puede tener éxito si la entrada no se filtra correctamente y los permisos de acceso en el archivo permiten que el proceso del servidor web lo lea, escriba o ejecute.
+
+El actor de amenaza podría usar un ataque de canonicalización para disfrazar la naturaleza de la entrada maliciosa. La canonicalización se refiere a la forma en que el servidor convierte entre los diferentes métodos mediante los que un recurso puede representarse y someterse al método más simple (o canónico) utilizado por el servidor para procesar la entrada. Los ejemplos de esquemas de codificación incluyen entidades HTML y codificación de porcentaje de conjunto de caracteres. Un atacante podría explotar las vulnerabilidades en el proceso de canonicalización para realizar la inyección de código o facilitar el salto de directorio. Por ejemplo, para realizar un ataque de salto de directorio, el atacante puede enviar una URL como la siguiente:
+
+http://victim.foo/?show=../../../../etc/config
+
+Una rutina de validación de entrada limitada evitaría el uso de la cadena ../ y rechazaría la solicitud. Si el atacante envió la URL utilizando la versión codificada de los caracteres, podría eludir la rutina de validación:
+
+http://victim.foo/?show=%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2fetc/config
+
+Un ataque de inyección de comandos intenta hacer que el servidor ejecute comandos de shell del sistema operativo y devuelva la salida al navegador. Al igual que con el salto de directorio, el servidor web por lo general debería poder evitar que los comandos operen fuera de la raíz de directorio del servidor y que se ejecuten con cualquier nivel de privilegio que no sea el usuario “invitado” del servidor web (al que por lo general solo se otorgan privilegios muy restringidos).  Un ataque de inyección de comandos exitoso encontraría alguna forma de eludir esta seguridad o explotaría un servidor web que no está configurado correctamente. 

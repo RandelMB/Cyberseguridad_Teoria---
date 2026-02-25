@@ -1,0 +1,27 @@
+
+El control de acceso a la red (NAC) no solo autentica a los usuarios y dispositivos antes de permitirles el acceso a la red, sino que también verifica y hace cumplir las políticas de seguridad establecidas. Al evaluar la versión del sistema operativo, el nivel de parches, el estado del antivirus o la presencia de software de seguridad específico, el NAC garantiza que los dispositivos cumplan con un conjunto mínimo de estándares de seguridad antes de recibir acceso a la red. El NAC también puede restringir el acceso en función del perfil de usuario, el tipo de dispositivo, la ubicación y otros atributos, para garantizar que los usuarios y dispositivos solo puedan acceder a los recursos necesarios para completar sus tareas. El NAC desempeña un papel fundamental en la identificación y puesta en cuarentena de dispositivos sospechosos o que no cumplen con los requisitos. Para las organizaciones con políticas de traiga su propio dispositivo (BYOD) y un uso cada vez mayor de dispositivos IoT, el NAC ayuda a las organizaciones a proteger su entorno de red interno contra el acceso no autorizado.
+
+El NAC y las redes de área local virtual (VLAN) trabajan juntos para mejorar y automatizar la seguridad de la red. Una de las principales formas en que el NAC se integra con las protecciones de VLAN es a través de la asignación dinámica de VLAN. La asignación dinámica de VLAN es una función de NAC que asigna una VLAN a un dispositivo en función de los atributos de identidad del usuario, el tipo de dispositivo, la ubicación del dispositivo o los resultados de la comprobación de estado. Por ejemplo, un usuario visitante (como un proveedor) podría colocarse en una VLAN que solo proporciona acceso a Internet, mientras que a un usuario corporativo se le asignaría una VLAN con acceso a recursos internos. Además, el NAC puede interactuar con la VLAN dinámica para implementar procedimientos de cuarentena. Si un dispositivo no cumple con las políticas de seguridad, por ejemplo, si no cuenta con un software antivirus actualizado, el sistema NAC puede moverlo automáticamente a una VLAN de cuarentena. Por lo general, esta VLAN está aislada del resto de la red, lo que limita el daño potencial de amenazas como el malware.
+
+Configuraciones con o sin agente
+El NAC puede hacer cumplir las políticas de seguridad a través de métodos basados en agentes y sin agentes. En un enfoque basado en agentes, se instala un agente de software en los dispositivos que se conectan a la red. Este agente se comunica con la plataforma NAC, y proporciona información detallada sobre el estado del dispositivo y el nivel de cumplimiento. Una implementación de NAC basada en agentes puede habilitar funciones como la corrección automática, donde el agente de NAC puede realizar acciones como actualizar el software o deshabilitar configuraciones específicas para que un dispositivo cumpla con las configuraciones de seguridad obligatorias. 
+
+En cambio, un enfoque de NAC sin agentes utiliza el control de acceso a la red basado en puertos o los escaneos de red para evaluar los dispositivos. Por ejemplo, el NAC sin agente puede usar un análisis de huella digital DHCP para identificar el tipo y la configuración de un dispositivo cuando se conecta, o puede realizar un análisis de red para detectar puertos abiertos o servicios activos. Si bien los métodos sin agente pueden no proporcionar información detallada sobre el estado de un dispositivo, se pueden usar con cualquier dispositivo que se conecte a la red, incluidos los dispositivos invitados o de IoT, sin necesidad de ninguna configuración previa.
+
+![[Pasted image 20250317175539.png]]
+
+Description
+Las pestañas en la parte superior son estado, informes, auditoría, nodos, usuarios y configuración (seleccionada). El panel izquierdo está titulado cumplimiento bajo el cual la subopción violaciones está seleccionada. El panel derecho está titulado violaciones. La tabla bajo el título lista el Id, Descripción, Acciones, Rol Objetivo y Acción.
+
+Definición de violaciones a las políticas en el NAC de código abierto de PacketFence. (Captura de pantalla utilizada con el permiso de packetfence.org).
+
+Un agente puede ser persistente, en cuyo caso se instala como una aplicación de software en el cliente, o no persistente. Un agente no persistente (o soluble) se carga en la memoria durante la evaluación de la postura, pero no se instala en el dispositivo.
+
+![[Pasted image 20250317175531.png]]
+
+Description
+Las pestañas en la parte superior son estado, informes, auditoría, nodos, usuarios y configuración (seleccionada). El panel izquierdo está titulado cumplimiento bajo el cual la subopción motores de escaneo bajo la opción cumplimiento está seleccionada. El panel derecho tiene un icono de información en la parte superior que dice, esta sección es para escáneres. Podrás configurar el motor de escaneo y las reglas aquí. Debajo están las pestañas motor de escaneo (seleccionado) y reglas WMI. Dos encabezados, nombre y motor de escaneo están escritos bajo el título motor de escaneo. El desplegable de añadir escaneo en la parte inferior tiene las siguientes opciones: Nessus, Nessus 6, OpenVAS (seleccionado) y WMI.
+
+
+
+PacketFence admite el uso de varias técnicas de análisis, incluidos los escáneres de vulnerabilidades, como Nessus y OpenVAS, consultas de Instrumental de administración de Windows (WMI) y analizadores de registros. (Captura de pantalla utilizada con el permiso de packetfence.org).

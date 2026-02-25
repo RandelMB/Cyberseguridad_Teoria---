@@ -1,0 +1,25 @@
+Un ataque por denegación de servicio (DoS) es cualquier cosa que reduzca la disponibilidad de un recurso. Los ataques de DoS pueden dirigirse al hardware y la infraestructura física. Un ataque de DoS basado en malware podría destruir un sistema de archivos o generar un consumo excesivo de CPU, memoria, almacenamiento o ancho de banda de la red.
+
+Un ataque de DoS también puede explotar las debilidades de protocolo o configuración en diferentes capas de red. Los ataques de DoS contra hosts y puertas de enlace de red suelen ser de un tipo llamado DoS distribuido (DDoS). DDoS significa que el ataque se lanza desde múltiples hosts en simultáneo. Por lo general, el actor de amenazas vulnerará las máquinas para usarlas como controladores en una red de mando y control. Los controladores se utilizan para poner en riesgo miles o millones de hosts con herramientas de bot para DDoS, formando una red de bots. 
+
+Algunos tipos de ataques de DDoS tienen como objetivo simplemente consumir el ancho de banda de la red, negándoselo a los hosts legítimos, mediante el uso de un número abrumador de bots que realizan solicitudes ordinarias. Otros provocan el agotamiento de recursos en el host víctima al bombardearlos con solicitudes, que consumen ciclos de CPU y memoria. Esto retrasa el procesamiento del tráfico legítimo y puede llegar a colapsar el sistema host por completo. Por ejemplo, un ataque de congestión SYN funciona reteniendo el paquete ACK del cliente durante el protocolo de enlace de tres vías de TCP. Un servidor, enrutador o cortafuegos puede mantener una cola de conexiones pendientes, registradas en su tabla de estados. Cuando no recibe un paquete ACK del cliente, vuelve a enviar el paquete SYN/ACK un número determinado de veces antes de que se agote el tiempo de espera de la conexión. El problema es que un servidor solo puede gestionar un número limitado de conexiones pendientes, que el ataque de DDoS llena rápidamente. Esto significa que el servidor no puede responder al tráfico genuino.
+
+Ataques reflejados
+Montar y administrar una red de bots lo suficientemente grande como para abrumar a una red que tiene medidas efectivas de mitigación de DDoS puede ser un esfuerzo costoso. Esto ha llevado a los actores de amenazas a diseñar técnicas de DDoS que aumentan la efectividad de cada ataque. En un ataque de DoS reflejado distribuido (DRDoS), el actor de amenaza suplanta la dirección IP de la víctima e intenta abrir conexiones con múltiples servidores de terceros.  Estos servidores dirigen sus respuestas SYN/ACK al host víctima. Esto consume rápidamente el ancho de banda disponible de la víctima.
+
+Una amenaza asimétrica es aquella en la que el actor de amenazas es capaz de perpetrar ataques efectivos a pesar de tener menos recursos que la víctima.
+
+Ataques amplificados
+Un ataque amplificado es un tipo de ataque reflejado que se dirige a las debilidades de protocolos de aplicación específicos para hacer que el ataque sea más efectivo a la hora de consumir el ancho de banda objetivo. Los ataques amplificados explotan los protocolos que permiten al atacante manipular la solicitud de tal manera que el objetivo se ve obligado a responder con una gran cantidad de datos. Entre los protocolos a los que comúnmente se dirigen los ataques se incluyen el sistema de nombres de dominio (DNS), el protocolo de tiempo de red (NTP) y el protocolo ligero de acceso a directorios sin conexión (CLDAP).  Otro ejemplo de un ataque particularmente efectivo es el que explota el sistema de almacenamiento en caché de la base de datos memcached utilizado por los servidores web.
+
+Indicadores de DDoS
+Los ataques de DDoS pueden diagnosticarse mediante picos de tráfico que no tienen una explicación legítima, pero generalmente solo pueden mitigarse proporcionando servicios de alta disponibilidad, como el equilibrio de carga y los servicios de clúster. En algunos casos, un cortafuegos con estado puede detectar un ataque de DDoS y bloquear automáticamente el origen. Sin embargo, para muchas de las técnicas utilizadas en los ataques de DDoS, las direcciones de origen serán suplantadas aleatoriamente o lanzadas por los bots, lo que dificulta la detención del ataque en la fuente. 
+
+![[Pasted image 20250404073956.png]]
+
+Description
+Las tres pestañas en la parte superior dicen, eventos, resumen (seleccionado) y vistas. La fecha y hora de inicio y fin se enumeran a continuación. Una tabla titulada, principales firmas lista el conteo, porcentaje total, fuente de hashtag, destino de hashtag, firma e ID. Tablas tituladas principales IPS de fuente y principales IPS de destino listan el conteo, porcentaje total, firma de hashtag, destino de hashtag, IP y país.
+
+
+
+Reducir el tráfico de los rangos de IP bloqueados utilizando Security Onion IDS. (Captura de pantalla utilizada con el permiso de Security Onion).

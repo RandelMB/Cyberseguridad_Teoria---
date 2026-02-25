@@ -1,0 +1,25 @@
+Las estrategias de gestión de riesgos describen los enfoques proactivos y sistemáticos utilizados para identificar, evaluar, priorizar y mitigar los riesgos para minimizar sus impactos negativos.
+
+La mitigación de riesgos (o remediación) es el proceso general de reducir la exposición o los efectos de los factores de riesgo. Una contramedida que reduce la exposición a una amenaza o vulnerabilidad describe la disuasión (o reducción) del riesgo. La reducción de riesgos se refiere a los controles que pueden hacer que un incidente de riesgo sea menos probable o menos costoso (o quizás ambos). Por ejemplo, si el fuego es una amenaza significativa, una política que controle estrictamente el uso de materiales inflamables en el sitio reduce la probabilidad, mientras que un sistema de alarmas y rociadores reduce el impacto al (con suerte) contener cualquier incidente en un área pequeña. Otro ejemplo es la copia de seguridad de datos fuera del sitio, que proporciona una opción de remediación en caso de que los servidores sean destruidos por un incendio. 
+
+La evitación significa detener la actividad que está causando el riesgo. Por ejemplo, una empresa puede desarrollar una aplicación a nivel interno para administrar el inventarioy luego venderla. Durante el proceso de venta, se puede descubrir que la aplicación tiene numerosas vulnerabilidades de seguridad que generan quejas y amenazas de acciones legales. La empresa puede decidir que el costo de mantener la seguridad del software no vale los ingresos que genera y su desarrollo. La evitación rara vez es una opción creíble.
+
+Transferencia de riesgos
+La transferencia (o compartir) significa asignar el riesgo a un tercero, como una compañía de seguros. El seguro de ciberseguridad específico o la cobertura de responsabilidad cibernética protegen contra multas y responsabilidades derivadas de violaciones y ataques de datos.
+
+Tenga en cuenta que en este tipo de casos es relativamente simple transferir los riesgos obvios, pero los riesgos que afectan la reputación de la empresa permanecen. Si se roban los datos de la tarjeta de crédito de un cliente porque utilizó su aplicación de comercio electrónico no segura, al cliente no le importará si usted o un tercero eran en teoría responsables de la seguridad. También es poco probable que las responsabilidades legales puedan transferirse por completo de esta manera. Por ejemplo, es probable que los términos del seguro requieran que se hayan implementado los mejores controles de riesgos.
+
+No es posible eliminar los riesgos, por lo que un objetivo importante de la gestión de riesgos es determinar un nivel apropiado de riesgo permitido. El concepto de riesgo “admisible” varía mucho entre las organizaciones y depende del sector de la industria, el estilo de liderazgo, el entorno legal y otros factores.
+
+Aceptación del riesgo
+La aceptación del riesgo (o tolerancia) significa que no se implementan contramedidas porque el nivel de riesgo no lo justifica.
+
+Una excepción de riesgo describe una situación en la que un riesgo no puede mitigarse mediante prácticas estándar de gestión de riesgos o dentro de unplazo especificado debido a condiciones financieras, técnicas u operativas. Una excepción de riesgo reconoce formalmente el riesgo y busca identificar controles de mitigación alternativos, si es posible. Las partes interesadas relevantes, como los gestores de riesgos o los altos ejecutivos, deben aprobar todas las excepciones de riesgo. Las excepciones de riesgo deben ser temporales y revisarse en unplazo establecido para determinar si los niveles de riesgo cambiaron o si la excepción puede eliminarse.
+
+Una exención de riesgos es una condición en la que el riesgo puede permanecer sin mitigación, por lo general debido a una decisión comercial estratégica. En general, las exenciones de riesgos se asocian con situaciones en las que el costo de mitigar un riesgo supera su daño potencial o puede llevar a beneficios estratégicos significativos cuando se acepta. Al igual que las excepciones de riesgo, las exenciones de riesgo deben ser documentadas formalmente y aprobadas por los gestores de riesgos o los altos ejecutivos y revisadas de forma periódica mediante un calendario establecido.
+
+![[Pasted image 20250407072952.png]]
+Las cuatro respuestas al riesgo son evitar, aceptar, mitigar y transferir.
+
+Riesgo residual y apetito por el riesgo
+Cuando el riesgo inherente es el riesgo antes de la mitigación, el riesgo residual es la probabilidad y el impacto después de que se hayan aplicado medidas específicas de mitigación, transferencia o aceptación. El apetito por el riesgo es una evaluación estratégica de qué nivel de riesgo residual es tolerable. El apetito por el riesgo tiene un alcance amplio. Mientras la aceptación del riesgo tiene el alcance de un solo sistema, el apetito por el riesgo tiene un alcance de todo el proyecto o la institución. El apetito por el riesgo está limitado por la regulación y el cumplimiento.

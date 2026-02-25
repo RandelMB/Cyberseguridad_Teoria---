@@ -1,0 +1,14 @@
+Los informes forenses digitales resumen el contenido significativo de los datos digitales y las conclusiones del análisis del investigador. Es importante señalar que los principios éticos sólidos deben guiar el análisis forense:
+
+El análisis debe realizarse sin sesgos. Las conclusiones y opiniones deben formarse solo a partir de la evidencia directa bajo análisis.
+Los métodos de análisis deben ser repetibles por terceros con acceso a la misma evidencia.
+Idealmente, la evidencia no se debe cambiar ni manipular. Si un dispositivo utilizado como evidencia debe manipularse para facilitar el análisis (desactivar la función de bloqueo de un teléfono móvil o evitar una limpieza remota, por ejemplo), las razones para hacerlo deben ser sólidas y el proceso de hacerlo debe registrarse.
+El abogado defensor puede intentar usar cualquier desviación del buen comportamiento ético y profesional para que se desestimen los hallazgos del investigador forense.
+
+Un examen forense de un dispositivo que contiene información almacenada electrónicamente (ESI) implica una búsqueda de toda la unidad, incluidos los sectores asignados y no asignados, por ejemplo. El descubrimiento electrónico es un medio para filtrar la evidencia relevante producida a partir de todos los datos recopilados por un examen forense y para almacenarla en una base de datos con un formato tal que pueda usarse como evidencia en un ensayo. Se produjeron herramientas de software de descubrimiento electrónico para ayudar a este proceso. Algunas de las funciones de las suites de descubrimiento electrónico son las siguientes:
+
+Identificar y desduplicar archivos y metadatos: muchos archivos en un sistema informático son archivos instalados “estándar” o copias del mismo archivo. El descubrimiento electrónico filtra este tipo de archivos, lo que reduce el volumen de datos que se deben analizar.
+Buscar: permite que los investigadores localicen los archivos de interés para el caso. Además de la búsqueda de palabras clave, el software podría admitir la búsqueda semántica. La búsqueda semántica coincide con las palabras clave si corresponden a un contexto particular.
+Etiquetas: aplica palabras clave o etiquetas estandarizadas a los archivos y metadatos para ayudar a organizar la evidencia. Las etiquetas pueden usarse para indicar la relevancia del caso o parte del caso o para mostrar confidencialidad, por ejemplo.
+Seguridad: en todos los puntos, se debe demostrar que la evidencia se almacenó, transmitió y analizó sin adulteración.
+Divulgación: una parte importante del procedimiento del juicio es que la misma evidencia esté disponible tanto para el demandante como para el acusado. El descubrimiento electrónico puede cumplir con este requisito. Los casos judiciales recientes requirieron que las partes de un caso judicial proporcionen ESI con capacidad de búsqueda en lugar de registros en papel. 

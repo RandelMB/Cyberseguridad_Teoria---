@@ -1,0 +1,26 @@
+
+
+Los dispositivos móviles introducen vulnerabilidades de seguridad únicas relacionadas con su funcionamiento, software especializado, ubicuidad y capacidad para almacenar y recopilar grandes cantidades de datos personales y profesionales. 
+
+El rooting (rooteo) y la jailbreak (fuga de la cárcel) son métodos utilizados para obtener privilegios elevados y acceso a los archivos del sistema en los dispositivos móviles. Esto permite a los usuarios eludir ciertas restricciones impuestas por el fabricante del dispositivo o el sistema operativo. 
+
+- Rooting (rooteo): consiste en obtener acceso root o privilegios administrativos en un dispositivo Android para modificar archivos del sistema, instalar ROM personalizadas (versiones modificadas del sistema operativo) y acceder a características y configuraciones que no están disponibles para usuarios regulares. 
+- Jailbreaking (fuga de cárceles):describe la obtención de acceso pleno a un dispositivo iOS (iPhone o iPad) eliminando las limitaciones impuestas por el sistema operativo iOS de Apple. La jailbreak (fuga de la cárcel) permite a los usuarios instalar aplicaciones no autorizadas, personalizar la apariencia y el comportamiento del dispositivo, acceder a los archivos del sistema y eludir las restricciones implementadas por Apple. 
+
+La práctica de “sideloading (carga lateral)” de aplicaciones se refiere a la instalación de aplicaciones de fuentes distintas de la tienda de aplicaciones oficial de la plataforma, como la Play Store de Google para Android o la App Store de Apple para iOS. Si bien la sideloading (carga lateral permite una mayor flexibilidad y elección del software, plantea riesgos significativos, ya que las aplicaciones cargadas lateralmente no se someten al mismo escrutinio y proceso de investigación que las de las tiendas de aplicaciones oficiales. Esto facilita la instalación de aplicaciones maliciosas, lo que puede provocar el robo de datos, violaciones de la privacidad y otros problemas. 
+
+Además, las aplicaciones que requieren permisos de acceso excesivos pueden generar importantes problemas de seguridad y privacidad. Los permisos de la aplicación deben alinearse con el propósito de la aplicación. Las aplicaciones con permisos excesivos pueden acceder a datos confidenciales del usuario sin una necesidad legítima, incluida información personal, los datos corporativos, los contactos, los registros de llamadas, los datos de ubicación o los identificadores de dispositivos. Conceder permisos innecesarios a las aplicaciones aumenta la superficie de ataque del dispositivo y la posibilidad de vulnerabilidades de seguridad.
+
+![[Pasted image 20250217141035.png]]
+
+
+La tienda de aplicaciones Android de F-Droid. (Captura de pantalla cortesía de www.opensecurityarchitecture.org).
+
+El rooting (rooteo), la sideloading (carga lateral) y la jailbreak (fuga de cárceles) ofrecen a los usuarios un mayor control y flexibilidad sobre sus dispositivos, pero también introducen muchos riesgos para las organizaciones. El rooting (rooteo), la sideloading (carga lateral) y la jailbreak (fuga de cárceles) pueden debilitar las medidas de seguridad implementadas por el fabricante del dispositivo y el sistema operativo, y facilitar a los atacantes la explotación de vulnerabilidades, la instalación de malware o el acceso no autorizado a información corporativa confidencial. Al permitir el acceso a tiendas de aplicaciones no verificadas o instalar aplicaciones de fuentes no oficiales, existe un mayor riesgo de descargar aplicaciones maliciosas o peligrosas. 
+
+La sideloading (carga lateral) suele asociarse a los dispositivos Android que utilizan archivos APK (Android Application Package). Si bien las aplicaciones también se pueden cargar en dispositivos Apple, la práctica viola directamente los términos y condiciones de Apple y anula la garantía del dispositivo. Anular la garantía de un dispositivo elimina el soporte oficial del fabricante, lo que significa que es posible que el dispositivo ya no reciba parches de seguridad, correcciones de errores o actualizaciones y lo deja vulnerable a nuevas amenazas y explotaciones. 
+
+Las organizaciones que operan en industrias reguladas, como la salud o las finanzas, deben implementar políticas estrictas que prohíban el rooting (rooteo), la sideloading (carga lateral) y la jailbreaking (fuga de cárceles) debido al mayor riesgo de filtración de datos y violaciones al cumplimiento de normas. Las plataformas de Mobile Device Management (MDM) pueden detectar y restringir el rooting (rooteo), la sideloading (carga lateral) y la jailbreak (fuga de cárceles). Los programas regulares de educación y sensibilización de los empleados también son cruciales para garantizar que los empleados comprendan los riesgos asociados a estas acciones y se adhieran a las políticas de seguridad móvil de la organización.
+
+Los dispositivos móviles a menudo son susceptibles a los mismos tipos de vulnerabilidades que afectan a las computadoras de escritorio, como conexiones wifi inseguras, ataques de phishing y vulnerabilidades de software sin parches. Dada su naturaleza portátil, los dispositivos móviles también tienen más probabilidades de perderse o ser robados, lo que podría exponer cualquier dato no cifrado almacenado en el dispositivo.
+

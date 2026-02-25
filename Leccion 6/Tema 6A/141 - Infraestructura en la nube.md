@@ -1,0 +1,8 @@
+Tema 6 A Infraestructura en la nube
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+3.1 Comparar y contrastar implicaciones de seguridad de los diferentes modelos de arquitectura. 
+
+Comprender los conceptos de plataformas en la nube es esencial para que los profesionales de la seguridad puedan proteger eficazmente los activos digitales, garantizar el cumplimiento y gestionar el riesgo en los entornos de TI modernos. Las organizaciones adoptan cada vez más servicios en la nube, por lo que los profesionales de la seguridad deben ser expertos en identificar posibles vulnerabilidades, implementar medidas de seguridad sólidas y monitorear los recursos basados en la nube para mitigar las posibles amenazas. Un buen conocimiento de los conceptos de las plataformas en la nube permite a los profesionales de seguridad navegar por el modelo de responsabilidad compartida, donde usuarios y proveedores de servicios en la nube colaboran para mantener una infraestructura segura. 
+
+Además, comprender las tecnologías en la nube es esencial para el desarrollo de estrategias de seguridad personalizadas, la adopción de mejores prácticas y el cumplimiento de requisitos reglamentarios. La computación en la nube continúa evolucionando rápidamente, por lo que los profesionales de la seguridad deben mantenerse al día con los últimos avances y panoramas de amenazas para salvaguardar los valiosos datos y recursos de sus organizaciones.

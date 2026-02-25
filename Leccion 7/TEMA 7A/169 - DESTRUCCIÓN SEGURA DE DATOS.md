@@ -1,0 +1,24 @@
+
+
+
+
+Varias circunstancias comunes pueden requerir la destrucción de datos dentro de una organización para garantizar la seguridad, el cumplimiento y la gestión adecuada de los recursos. Al final de un período de retención de datos, las organizaciones deben destruir los datos de acuerdo con las políticas internas y las normas externas, al tiempo que optimizan los recursos de almacenamiento. El cumplimiento legal y normativo, como la adhesión al Reglamento General de Protección de Datos (RGPD) o la Ley de Transferencia y Responsabilidad de Seguro Médico (HIPAA), también requiere la eliminación o destrucción de datos específicos cuando ya no sean necesarios o si lo solicita el interesado. La destrucción periódica de datos obsoletos o caducados puede ayudar a mantener una utilización eficiente del almacenamiento y reducir el riesgo de filtración de datos. 
+
+Además, al desmantelar dispositivos o sistemas de almacenamiento, destruya los datos almacenados antes de eliminarlos o reutilizarlos para evitar el acceso no autorizado a información confidencial. 
+
+Enajenación de activos
+Los conceptos de enajenación/desmantelamiento de activos se centran en la gestión segura y conforme a las normas de los datos y dispositivos de almacenamiento al final de su ciclo de vida o cuando ya no se necesitan. Algunos conceptos importantes incluyen los siguientes:
+
+Sanitización: hace referencia al proceso de eliminación de información confidencial de los medios de almacenamiento para evitar accesos no autorizados o filtraciones de datos. Este proceso utiliza técnicas especializadas, como el borrado de datos, la desmagnetización o el cifrado, para garantizar que los datos se puedan recuperar. La sanitización es en particular importante cuando se reutilizan o donan dispositivos de almacenamiento, ya que ayuda a proteger la información confidencial de la organización y mantiene el cumplimiento de las normas de protección de datos.
+
+Destrucción: consiste en la eliminación física o electrónica de la información almacenada en medios, haciéndola inaccesible e irrecuperable. Los métodos de destrucción física incluyen la trituración, el aplastamiento o la incineración de los dispositivos de almacenamiento, mientras que la destrucción electrónica implica sobrescribir los datos varias veces o utilizar técnicas de desmagnetización para eliminar los campos magnéticos de los medios de almacenamiento. La destrucción es un paso fundamental en el proceso de desmantelamiento y garantiza que los datos confidenciales no puedan recuperarse ni utilizarse de forma indebida después de la enajenación de los dispositivos de almacenamiento.
+
+Certificación: hace referencia a la documentación y verificación del proceso de sanitización o destrucción de datos. Por lo general, implica obtener un certificado de destrucción o sanitización de un proveedor externo acreditado, que dé fe de que los datos se eliminaron o destruyeron de forma segura de conformidad con los estándares y normas de la industria. La certificación ayuda a las organizaciones a mantener el cumplimiento de los requisitos de protección de datos, proporciona evidencia de la diligencia debida y reduce el riesgo de responsabilidades legales. Certificar la destrucción de datos sin la participación de terceros puede ser un desafío, ya que este último proporciona una evaluación imparcial. 
+
+
+![[Pasted image 20250217105909.png]]
+
+
+Software de borrado de datos de KillDisk activo. (Captura de pantalla utilizada con el permiso de LSoft Technologies, Inc.)
+
+Los archivos eliminados de un disco duro de tipo magnético no se borran por completo. En cambio, los sectores que contienen los datos se marcan como disponibles para la escritura y los datos que contienen solo se eliminan a medida que se agregan nuevos archivos. Del mismo modo, la herramienta de formato estándar de Windows solo eliminará las referencias a los archivos y marcará todos los sectores como utilizables. Por esta razón, el método estándar para sanitizar un disco duro se llama sobrescritura. Esto se puede realizar mediante las herramientas de firmware de la unidad o un programa de utilidad. El tipo más básico de sobrescritura se denomina relleno cero, que establece cada bit en cero. El relleno cero de una sola pasada puede dejar patrones que se pueden leer con herramientas especializadas. Un método más seguro es sobrescribir el contenido con una pasada de todos los ceros, luego una pasada de todos los unos y luego una tercera pasada en un patrón pseudoaleatorio. Algunas agencias federales requieren más de tres pasadas. La sobrescritura puede llevar un tiempo considerable, según el número de pasadas requeridas.

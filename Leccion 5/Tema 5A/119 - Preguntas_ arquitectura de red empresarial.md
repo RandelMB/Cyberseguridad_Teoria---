@@ -1,0 +1,8 @@
+
+Responda las siguientes preguntas:
+
+1. La red de una empresa contiene estaciones de trabajo cliente y servidores de bases de datos en la misma subred. Recientemente, esto permitió que los atacantes vulnerasen la seguridad de los servidores de bases de datos desde una estación de trabajo comprometida por un malware de suplantación de identidad. La empresa mejoró la capacitación sobre la detección de amenazas y actualizó el software antivirus en las estaciones de trabajo. ¿Qué otro cambio mejorará la seguridad del diseño de la red y por qué?
+2. Una empresa debe almacenar los datos archivados con requisitos de confidencialidad e integridad muy altos en el mismo sitio que sus sistemas de red de producción. ¿Qué tipo de arquitectura protegerá mejor los requisitos de seguridad del host de archivos?
+3. A raíz de una filtración de datos perpetrada por un actor de amenazas interno, una empresa trasladó sus servidores locales a una sala de equipos dedicada. La sala de equipos tiene una puerta con cerradura y los servidores están instalados en bastidores con cerradura. El acceso a las llaves está restringido a administradores con privilegios y sujeto a procedimientos de cierre de sesión. ¿Verdadero o falso? Estos principios de seguridad reducen la superficie de ataque.
+4. Una empresa quiere actualizar los switches para hacer cumplir la autenticación del dispositivo. ¿Qué marco, estándar o protocolo deben admitir los modelos de switch?
+5. Dos empresas se fusionan y quieren agrupar a sus empleados en una única sede. Las redes locales de ambas empresas no tienen espacio para agregar las 100 computadoras de escritorio necesarias. ¿Qué factor de consideración no tiene en cuenta el modelo de arquitectura actual?

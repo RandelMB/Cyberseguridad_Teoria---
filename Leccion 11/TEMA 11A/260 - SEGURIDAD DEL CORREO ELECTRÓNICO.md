@@ -1,0 +1,26 @@
+Hay tres tecnologías que se consideran esenciales para verificar la autenticidad de los correos electrónicos y prevenir el phishing y el correo no deseado: Sender Policy Framework (SPF) (marco de directivas de remitente), DomainKeys Identified Mail (DKIM) (correo identificado por claves de dominio) y autenticación de mensajes, informes y Domain-based Message Authentication, Reporting & Conformance (DMARC) (conformidad basada en dominios).
+
+El Sender Policy Framework (SPF) (marco de directivas de remitente) es un método de autenticación de correo electrónico que ayuda a detectar y prevenir la falsificación de direcciones de remitente, algo que se utiliza con frecuencia en correos electrónicos de phishing y correos no deseados. El SPF funciona mediante la verificación de la dirección IP del remitente con una lista de direcciones IP de envío autorizadas publicadas en los registros TXT de DNS del dominio del remitente de correo electrónico. Cuando se recibe un correo electrónico, el servidor de correo receptor verifica el registro SPF del dominio del remitente para verificar que el correo electrónico se originó en uno de los sistemas preautorizados. 
+
+![[Pasted image 20250403074021.png]]
+
+Visualización de los registros TXT para microsoft.com con la herramienta dig. (Captura de pantalla utilizada con el permiso de Microsoft).
+
+El DomainKeys Identified Mail (DKIM) (correo identificado por claves de dominio) aprovecha las funciones de cifrado para habilitar la verificación de correos electrónicos al permitir que el remitente firme correos electrónicos con una firma digital. El servidor de correo electrónico receptor utiliza un registro DKIM en el registro DNS del remitente para verificar la firma y la integridad del correo electrónico. 
+
+La Domain-based Message Authentication, Reporting & Conformance (DMARC) (autenticación de mensajes, informes y conformidad basada en dominios) utiliza los resultados de las comprobaciones de SPF y DKIM para definir reglas para la gestión de mensajes, como mover mensajes a cuarentena o correo no deseado, rechazarlos directamente o etiquetar el mensaje. La DMARC también proporciona capacidades de elaboración de informes, lo que brinda al propietario de un dominio visibilidad sobre qué sistemas envían correos electrónicos en su nombre, incluida la actividad no autorizada.
+
+![[Pasted image 20250403074010.png]]
+
+
+Búsqueda de DMARC a través del sitio web DNSChecker https://dnschecker.org.
+
+El uso combinado de SPF, DKIM y DMARC mejora significativamente la seguridad del correo electrónico al hacer que sea mucho más difícil para los atacantes hacerse pasar por dominios de confianza, que es una de las tácticas más comunes que se utilizan en los ataques de phishing y correo no deseado. Estos protocolos son herramientas primordiales en la lucha contra las amenazas basadas en correos electrónicos porque proporcionan mecanismos esenciales que ayudan a verificar la autenticidad de los correos electrónicos, mantener la integridad del contenido del correo electrónico y garantizar la entrega segura de la comunicación electrónica. 
+
+Puerta de enlace de correo electrónico
+Una puerta de enlace de correo electrónico es el punto de control para todo el tráfico de correo electrónico entrante y saliente. Actúa como un guardián y examina todos los correos electrónicos para eliminar posibles amenazas antes de que lleguen a las bandejas de entrada. Las puertas de enlace de correo electrónico utilizan varias medidas de seguridad, como filtros contra el correo no deseado, escáneres antivirus y sofisticados algoritmos de detección de amenazas para identificar intentos de phishing, URL maliciosas y archivos adjuntos dañinos. Las puertas de enlace de correo electrónico aprovechan DMARC, SPF y DKIM para automatizar la autenticación y validación de los remitentes de correo electrónico, lo que reduce las posibilidades de que se entreguen correos electrónicos falsificados o suplantados. 
+
+Las puertas de enlace de correo electrónico también desempeñan un papel fundamental en la aplicación de políticas al permitir a las organizaciones crear reglas relacionadas con el contenido del correo electrónico y los archivos adjuntos en función de las políticas establecidas o los requisitos de cumplimiento normativo. El bloqueo de archivos adjuntos, el filtrado de contenido y la prevención de pérdida de datos son tareas comunes que abordan las puertas de enlace de correo electrónico.
+
+Extensiones de correo de Internet multipropósito/seguras 
+Las extensiones de correo de Internet multipropósito/seguras (S/MIME) son un protocolo para proteger las comunicaciones por correo electrónico. Cifra los correos electrónicos y permite la autenticación del remitente para garantizar la confidencialidad e integridad de las comunicaciones por correo electrónico. Las S/MIME utilizan técnicas de cifrado de clave pública para proteger el contenido del correo electrónico (el “cuerpo” del correo electrónico). Las S/MIME también incorporan firmas digitales para respaldar la verificación del remitente y garantizar que los mensajes no se modifiquen. Al proporcionar capacidades de cifrado y autenticación, las S/MIME mejoran significativamente la seguridad de la comunicación por correo electrónico, pero su implementación suele ser complicada y propensa a errores de configuración.

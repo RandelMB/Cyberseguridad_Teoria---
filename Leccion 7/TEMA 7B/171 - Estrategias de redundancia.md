@@ -1,0 +1,9 @@
+
+Estrategias de redundancia
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+1.2 Resumir conceptos de seguridad fundamentales.
+
+3.4 Explicar la importancia de la resiliencia y la recuperación en la arquitectura de seguridad. 
+
+Las estrategias de redundancia son fundamentales para la recuperación ante desastres y la planificación de la continuidad de negocio de una organización. Estas estrategias incluyen la planificación de la continuidad de las operaciones (COOP), que implica el desarrollo de procesos y procedimientos para garantizar que las funciones comerciales críticas puedan continuar durante y después de una interrupción. El clúster de alta disponibilidad (HA) utiliza sistemas redundantes que pueden hacerse cargo automáticamente de las operaciones en caso de fallo, al minimizar el tiempo de inactividad. La redundancia de energía garantiza que la infraestructura crítica, como los centros de datos, disponga de fuentes de energía de respaldo para continuar las operaciones durante un apagón. La diversidad de proveedores y la defensa en profundidad implican el uso de múltiples proveedores y capas de seguridad para reducir el riesgo de puntos únicos de falla y mejorar la redundancia general. Las pruebas periódicas, incluidos los ejercicios de mesa, las pruebas de conmutación por error y las simulaciones, son fundamentales para identificar vulnerabilidades, evaluar los planes de respuesta y mejorar las medidas de redundancia. Al incorporar estrategias de redundancia, las organizaciones pueden reducir los riesgos, minimizar el tiempo de inactividad y garantizar la continuidad de sus funciones comerciales críticas.

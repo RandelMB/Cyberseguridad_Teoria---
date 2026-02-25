@@ -1,0 +1,12 @@
+
+
+El aprovisionamiento o asignación es el proceso de configurar un servicio de acuerdo con un procedimiento estándar o una lista de verificación de mejores prácticas. El departamento de TI debe hacer un seguimiento de todos los activos gestionados, y las cuentas de usuario son un tipo de activo. Las cuentas de usuario se aprovisionan para empleados nuevos y para acceso temporal, como en el caso de consultores y contratistas. Es posible que algunas empresas también necesiten configurar cuentas de clientes. 
+
+El aprovisionamiento de una cuenta de usuario implica los siguientes pasos generales:
+
+Comprobación de identidad: verifica que la persona es quien dice ser al verificar documentos y registros oficiales. Las circunstancias también pueden exigir una comprobación de antecedentes, que verifique las direcciones actuales y anteriores, la educación o el empleo anterior y si la persona tiene antecedentes penales o problemas de crédito.
+Emisión de credenciales: permite al usuario elegir una contraseña que solo él conoce o registrarse con autenticadores biométricos o basados en tokens.
+Emisión de activos de hardware y software: por lo general, el usuario necesitará una computadora o un teléfono inteligente y, quizás, copias locales de aplicaciones de software con licencia. Los empleados necesitan contar con los recursos suficientes para hacer su trabajo. Si sus recursos son insuficientes, pueden tratar de obtener hardware y software por su cuenta (TI en la sombra).
+Concientización sobre las políticas de enseñanza: programar capacitación y proporcionar acceso a los recursos de aprendizaje para que el empleado o contratista conozca las políticas y los riesgos de seguridad. También deben conocer las políticas para el uso personal de los activos de TI que se les entreguen.
+Creación de asignación de permisos: identificar las funciones de trabajo que debe admitir la cuenta y configurar los derechos apropiados mediante un modelo de control de acceso basado en funciones, obligatorio o basado en atributos. Si a la cuenta se le otorga acceso con privilegios, debe etiquetarse para un monitoreo cercano.
+El desaprovisionamiento o desasignación es el proceso de eliminar los derechos de acceso y permisos asignados a un empleado cuando abandona la empresa o de un contratista cuando finaliza un proyecto. Esto implica eliminar la cuenta de cualquier función o grupo de seguridad. La cuenta podría desactivarse durante un tiempo y luego eliminarse o eliminarse de inmediato.

@@ -1,0 +1,18 @@
+
+Uno de los beneficios de la nube es su potencial para ofrecer servicios resilientes a fallas en diferentes niveles, como componentes, servidores, redes locales, sitios, centros de datos y redes de área amplia (WAN). El CSP emplea una capa de virtualización para garantizar que las disposicionesdecomputación, almacenamiento y red cumplan con los criterios de disponibilidad establecidos en su SLA. 
+
+En términos de niveles de rendimiento de almacenamiento, la alta disponibilidad (HA) se define como el almacenamiento que ofrece una garantía de tiempo de actividad del 99,99 % o superior. Al igual que con la arquitectura local, el CSP implementa la redundancia para poner a disposición de un conjunto de recursos de almacenamiento múltiples controladores de disco y dispositivos de almacenamiento. Los datos se pueden replicar entre diferentes conjuntos o grupos, cada uno respaldado por recursos de hardware independientes.
+
+Replicación
+La replicación de datos permite que las empresas copien sus datos a ubicaciones donde se puedan aprovechar de manera más eficiente. La nube se puede utilizar como área de almacenamiento central, a fin de facilitar la disponibilidad de datos entre todas las unidades de negocio. La replicación de datos requiere conexiones de red de baja latencia, seguridad e integridad de los datos. Los CSP ofrecen varios niveles de rendimiento de almacenamiento de datos (cloud.google.com/storage/docs/storage-classes). Los términos “almacenamiento en caliente” y “almacenamiento en frío” hacen referencia a la rapidez con la que se recuperan los datos. El almacenamiento en caliente permite una recuperación de datos más rápida que en frío, pero cuanto más rápida sea esta recuperación, mayor será el costo asociado. 
+
+Las diferentes aplicaciones tienen diversos requisitos de replicación. Una base de datos generalmente requiere una replicación síncrona de baja latencia, ya que una transacción no suele considerarse completa hasta que se haya realizado en todas las réplicas. Un mecanismo para replicar archivos de datos en un almacenamiento de respaldo podría no tener requisitos tan exigentes, dependiendo de la criticidad de los datos.
+
+Alta disponibilidad en todas las zonas
+Los CSP dividen el mundo en regiones. Cada región es independiente de las demás. Las regiones se dividen en zonas de disponibilidad. Las zonas de disponibilidad cuentan con centros de datos independientes que poseen su propia energía, refrigeración y conectividad de red. Puede optar por alojar datos, servicios e instancias de máquinas virtuales (VM) en una región específica para ofrecer un servicio de menor latencia a los clientes. El aprovisionamiento de recursos en múltiples zonas y regiones también puede mejorar el desempeño y aumentar la redundancia, aunque requiere un nivel adecuado de rendimiento de replicación.
+
+En consecuencia, los CSP ofrecen varios niveles de replicación que representan diferentes niveles de servicio de alta disponibilidad:
+
+- Replicación local: replica sus datos dentro de un solo centro de datos en la región donde creó su cuenta de almacenamiento. Las réplicas a menudo se encuentran en dominios de fallas y dominios de actualización separados.
+- Replicación regional (también llamada almacenamiento con redundancia de zona): replica sus datos en varios centros de datos dentro de una o dos regiones. Esto protege los datos y el acceso en caso de que un solo centro de datos se destruya o desconecte.
+- Almacenamiento georredundante (GRS): replica sus datos en una región secundaria que está alejada de la región primaria. Esto protege los datos en caso de desastre o interrupción regional.

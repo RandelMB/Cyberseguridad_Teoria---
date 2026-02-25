@@ -1,0 +1,5 @@
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+4.1 A partir de un escenario, aplicar técnicas comunes de seguridad a los recursos computacionales.
+
+La seguridad de la nube y de las aplicaciones web incluye el endurecimiento de la nube, que fortalece la infraestructura de la nube y reduce su superficie de ataque, y la seguridad de las aplicaciones, que garantiza que el software se diseñe, desarrolle e implemente de forma segura. Ambas prácticas se utilizan en conjunto para establecer una estrategia de defensa en capas y contar con una protección efectiva contra muchas amenazas diferentes. Las prácticas de codificación segura incluyen técnicas de validación de entradas, la incorporación del principio de privilegio mínimo, el mantenimiento de la gestión segura de sesiones, la aplicación de cifrado, el soporte de parches y muchas otras capacidades. Además, los desarrolladores deben diseñar software que produzca registros completos, estructurados y significativos, y al mismo tiempo, incorporar mecanismos de alerta en tiempo real. Estas prácticas complementarias son compatibles con un entorno seguro y protegido en la nube y en las aplicaciones web.

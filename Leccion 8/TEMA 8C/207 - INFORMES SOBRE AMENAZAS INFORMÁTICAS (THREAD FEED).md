@@ -1,0 +1,48 @@
+Otro elemento importante de la gestión de vulnerabilidades es el uso de informes sobre amenazas informáticas. Se trata de fuentes de información actualizadas continuamente y en tiempo real sobre posibles amenazas y vulnerabilidades, a menudo recopiladas de múltiples fuentes. Al integrar estos informes sobre amenazas informáticas en sus prácticas de gestión de vulnerabilidades, las organizaciones pueden mantenerse informadas sobre los riesgos más recientes y responder con mayor rapidez.
+
+Los informes sobre amenazas informáticas son fundamentales para el escaneo de vulnerabilidades, ya que proporcionan datos continuos en tiempo real sobre las últimas vulnerabilidades, exploits y actores de amenaza. Estos informes sirven como recurso valioso para mejorar la inteligencia sobre amenazas de la organización y permitir una identificación y corrección más rápidas de potenciales vulnerabilidades. Integran datos de diversas fuentes, incluidos proveedores de seguridad, organizaciones de ciberseguridad e inteligencia de código abierto, para tener una visión integral del panorama de amenazas.
+
+Las plataformas de informes sobre amenazas comunes incluyen Open Threat Exchange (OTX) de AlienVault, X-Force Exchange de IBM y Recorded Future. Estas plataformas recopilan, analizan y distribuyen información sobre amenazas nuevas y emergentes, proporcionando inteligencia procesable que puede incorporarse a las prácticas de gestión de vulnerabilidades de una organización y, a veces, directamente a las herramientas de infraestructura de seguridad para brindar protecciones actualizadas.
+
+Los informes sobre amenazas informáticas mejoran significativamente la identificación de vulnerabilidades al proporcionar información y contexto oportunos sobre amenazas nuevas que el escaneo de vulnerabilidades tradicional no proporciona. Las fuentes de amenazas proporcionan información que asiste a las organizaciones a centrar sus esfuerzos de corrección en las vulnerabilidades más pertinentes y potencialmente perjudiciales en primer lugar. Este enfoque proactivo puede reducir significativamente el tiempo entre el detección de una vulnerabilidad y su corrección, minimizando así la exposición de la organización a posibles ataques.
+
+Informes sobre amenazas informáticas de terceros
+
+Los informes sobre amenazas informáticas de código abierto y patentadas proporcionan información valiosa en tiempo real sobre las últimas amenazas y vulnerabilidades cibernéticas. Ambos tipos de fuentes agregan datos de diversos recursos y pueden integrarse en la infraestructura de seguridad de una organización, contribuyendo a una estrategia de ciberseguridad proactiva. 
+
+La elección entre informes sobre amenazas de código abierto y patentadas a menudo reduce a algunos atributos importantes. Los informes de código abierto, como las proporcionadas por la Cyber Threat Alliance o la plataforma de intercambio de amenazas MISP, suelen ser gratuitas y accesibles para todos, lo que las convierte en una solución rentable para organizaciones más pequeñas o con presupuestos limitados. Sin embargo, pueden carecer de la profundidad, amplitud o sofisticación del análisis que proveen las fuentes patentadas. 
+
+Los informes sobre amenazas patentados a menudo proporcionan información más completa y conocimientos analíticos avanzados. Sin embargo, estas fuentes implican un costo y el retorno de la inversión dependerá de las necesidades, el perfil de riesgo y los recursos específicos de una organización. Algunas organizaciones pueden usar una combinación de fuentes de código abierto y patentadas para lograr un equilibrio entre el costo y la cobertura.
+
+![[Pasted image 20250317173437.png]]
+Description
+El texto en la parte superior izquierda dice, investigar, colaborar y actuar sobre la inteligencia de amenazas. Debajo del texto hay una barra de búsqueda seguida por los enlaces de tendencia en la parte superior derecha. El tablero debajo muestra cinco secciones: alimentación de protección avanzada contra amenazas de IBM, alimentación de advertencia temprana, inteligencia de amenazas IRIS, avisos recientes de IBM X-Force y actividad de amenaza. Las primeras dos secciones están seguidas por un botón para iniciar tu prueba de 30 días.
+
+	Portal de inteligencia de amenazas IBM X-Force Exchange. (Derechos de autor de la imagen 2019 IBM Security exchange.xforce.ibmcloud.com).
+
+Los resultados de la investigación primaria realizada por proveedores de datos de informes sobre amenazas y académicos pueden adoptar tres formas principales:
+
+Investigación sobre la amenaza del comportamiento:son comentarios narrativos que describen ejemplos de ataques y TTP recopilados a través de fuentes de investigación primarias.
+Reputational threat intelligence (inteligencia sobre amenazas de reputación): son listas de direcciones IP y dominios asociados a comportamientos maliciosos, además de firmas de malware basadas en archivos conocidos.
+Datos de amenazas:son datos informáticos que pueden correlacionar los eventos observados en las redes y registros propios de un cliente con indicadores conocidos de TTP y de actores de amenaza.
+Los datos de amenazas se pueden empaquetar como fuentes que se integran con una plataforma de gestión de información y eventos de seguridad (SIEM). Estos informes suelen describirse como datos de cyber threat intelligence (CTI) (inteligencia contra ciberamenazas). Los datos por sí solos no constituyen una solución de seguridad completa. Para producir inteligencia procesable, los datos de amenazas deben correlacionarse con los datos observados en las redes de clientes. Este tipo de análisis suele estar facilitado por las funciones de inteligencia artificial de las plataformas SIEM.
+
+Las plataformas y fuentes de inteligencia sobre amenazas se suministran como uno de tres modelos comerciales diferentes:
+
+Closed/proprietary [Cerrado/patentado]: es el caso en que la investigación de amenazas y los datos de CTI están disponibles mediante una suscripción de pago a una plataforma comercial de inteligencia contra amenazas. El proveedor de soluciones de seguridad también pondrá a disposición de los suscriptores de la plataforma las investigaciones más valiosas en forma de blogs, documentos técnicos y seminarios web. Algunos ejemplos de estas plataformas son los siguientes:
+IBM X-Force Exchange (exchange.xforce.ibmcloud.com);
+Mandiant 's FireEye (mandiant.com/advantage/threat-intelligence);
+Recorded Future (recordedfuture.com/platform/threat-intelligence).
+Organizaciones de intercambio de información
+Las organizaciones de intercambio de información sobre amenazas imformáticas son grupos de colaboración que intercambian datos sobre amenazas y vulnerabilidades emergentes de ciberseguridad. Estas organizaciones recopilan, analizan y difunden información de inteligencia sobre amenazas de diversas fuentes, incluidos sus miembros, investigadores de seguridad y fuentes públicas. Los miembros de estas organizaciones, a menudo compuestos por empresas, entidades gubernamentales e instituciones académicas, pueden beneficiarse de la inteligencia compartida al obtener información sobre las últimas amenazas, datos a los que tal vez no tendrían acceso de forma individual. Pueden utilizar esta información para fortalecer sus sistemas y responder con rapidez a las amenazas emergentes. 
+
+Ejemplos de tales organizaciones incluyen la Cyber Threat Alliance (CTA) y los Information Sharing and Analysis Centers (ISAC) [Centros de análisis e intercambio de información (ISAC)] que abarcan varias industrias. Estas organizaciones son cruciales para mejorar la resiliencia colectiva en ciberseguridad y promover un enfoque colaborativo a fin de abordar las amenazas cibernéticas.
+
+Inteligencia de código abierto
+La open-source intelligence (OSINT) [inteligencia de código abierto (OSINT)] describe la recopilación y el análisis de información disponible públicamente y su uso para respaldar la toma de decisiones. En operaciones de ciberseguridad, se utiliza la metodología OSINT para identificar vulnerabilidades e información sobre amenazas mediante la recopilación de datos de múltiples fuentes, como blogs, foros, plataformas de redes sociales e incluso la dark web (web oscura). Puede incluir información sobre nuevos tipos de malware, estrategias de ataque utilizadas por los ciberdelincuentes y vulnerabilidades de software descubiertas recientemente. Los investigadores de seguridad pueden utilizar herramientas de OSINT para recopilar y analizar automáticamente esta información, identificando posibles amenazas o vulnerabilidades que podrían afectar a su organización. 
+
+Algunas herramientas comunes de OSINT incluyen Shodan para investigar dispositivos conectados a Internet; Maltego para visualizar redes complejas de información; Recon-ng para actividades de reconocimiento basadas en la web y theHarvester para recopilar correos electrónicos, subdominios, hosts y nombres de empleados de diferentes fuentes públicas.
+
+El marco OSINT es un recurso útil diseñado para ayudar a localizar y organizar las herramientas utilizadas para desarrollar inteligencia de código abierto. https://github.com/lockfale/osint-framework 
+
+El marco OSINT puede proporcionar un contexto valioso para ayudar a evaluar los niveles de riesgo asociados con una vulnerabilidad específica. Por ejemplo, habrá que dar prioridad a la corrección de las vulnerabilidades recién descubiertas que se estén explotando activamente en el entorno real o que se discuten en foros de piratería. De esta manera, el OSINT ayuda a identificar vulnerabilidades y desempeña un papel fundamental en la gestión de vulnerabilidades y la evaluación de amenazas.

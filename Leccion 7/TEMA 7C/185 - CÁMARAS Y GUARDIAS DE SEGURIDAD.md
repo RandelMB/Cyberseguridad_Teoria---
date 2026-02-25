@@ -1,0 +1,16 @@
+La vigilancia suele ser una segunda capa de seguridad diseñada para mejorar la resiliencia de las vías de acceso perimetrales. La vigilancia puede centrarse en áreas perimetrales o dentro de zonas de seguridad. Se pueden colocar guardias de seguridad humanos, armados o desarmados, delante y alrededor de un lugar para protegerlo. Pueden vigilar los puntos de control críticos y verificar la identificación, permitir o denegar el acceso y registrar las entradas físicas. También proporcionan un elemento de disuasión visual y pueden aplicar su conocimiento e intuición a posibles violaciones de la seguridad. La presencia visible de guardias es un mecanismo de detección y disuasión de intrusiones muy efectivo, pero es igual de costoso. Quizás no sea posible colocar guardias de seguridad dentro de ciertas zonas porque no se les puede otorgar la autorización de seguridad adecuada. Es de suma importancia capacitar y evaluar a los guardias de seguridad.
+
+La videovigilancia es un medio de vigilancia más barato que el de mantener guardias en cada zona o vía de acceso, aunque la instalación no es barata, en caso de que aún no se cuente con la infraestructura en las instalaciones. También es un elemento de disuasión bastante eficaz. La otra gran ventaja es que se pueden los movimientos y accesos se pueden grabar. El principal inconveniente en comparación con la presencia de guardias de seguridad es que los tiempos de respuesta son más largos y la seguridad puede verse comprometida si no hay suficiente personal para monitorear las imágenes de las cámaras.
+
+![[Pasted image 20250217111835.png]]
+
+
+CCTV instalado para monitorear una sala de servidores. (Imagen de Dario Lo Presti © 123RF.com.)
+
+Las cámaras de una red de CCTV suelen estar conectadas a un multiplexor mediante cableado coaxial. Con el multiplexor se pueden mostrar imágenes de las cámaras en una o más pantallas, permitir que el operador controle las funciones de la cámara y grabar las imágenes en cinta o disco duro. Los sistemas de cámaras más recientes pueden vincularse en una red IP mediante cableado de datos normal.
+
+Los sistemas de cámaras y la robótica pueden utilizar la IA y el aprendizaje automático para implementar una seguridad física inteligente (theverge.com/2018/1/23/16907238/artificial-intelligence-surveillance-cameras-security):
+
+- Reconocimiento de movimiento: se produce cuando el sistema de la cámara está configurado con tecnología de identificación de la marcha. Significa que el sistema puede generar una alerta cuando cualquier persona a la vista de la cámara se mueve en un patrón que no coincide con un individuo conocido y autorizado.
+- Detección de objetos: se produce cuando el sistema de la cámara puede detectar cambios en el entorno, como la falta de un servidor o un dispositivo desconocido conectado a un puerto de pared.
+- Drones/UAV: las cámaras montadas en drones pueden cubrir áreas más amplias que las patrullas terrestres (zdnet.com/article/best-security-surveillance-drones-for-business).

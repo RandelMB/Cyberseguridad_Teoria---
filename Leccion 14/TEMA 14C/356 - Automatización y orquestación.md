@@ -1,0 +1,6 @@
+Tema 14 CAutomatización y orquestación
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+4.7 Explicar la importancia de la automatización y orquestación relacionada a las operaciones de seguridad.
+
+La automatización y la orquestación son herramientas potentes para gestionar las operaciones de seguridad. La automatización utiliza software para realizar tareas repetitivas basadas en reglas, como la supervisión de amenazas, la aplicación de parches, el mantenimiento de las líneas de base o la respuesta a incidentes, para mejorar la eficiencia y reducir la probabilidad de errores humanos. La orquestación mejora la automatización al coordinar y agilizar las interacciones entre los procesos y sistemas automatizados. La orquestación respalda los flujos de trabajo integrados y continuos, en especial en entornos amplios y complejos con múltiples herramientas y sistemas de seguridad. La automatización y la orquestación también proporcionan registros de auditoría claros que respaldan el cumplimiento normativo y la investigación de incidentes. Aunque su implementación presenta algunos desafíos como la complejidad, el costo y la posibilidad de un único punto de fallo, una gestión cuidadosa de estas herramientas puede mejorar de manera significativa la postura de seguridad de una organización.

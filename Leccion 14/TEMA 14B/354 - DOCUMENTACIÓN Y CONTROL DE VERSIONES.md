@@ -1,0 +1,12 @@
+El version control (control de versiones) se refiere al seguimiento y control de los cambios en documentos, código u otros datos importantes. Las organizaciones pueden utilizar el version control (control de versiones) para mantener un registro histórico de los cambios, garantizar que solo se implementen los cambios aprobados y revertir rápidamente los cambios a una versión anterior según sea necesario. El version control (control de versiones) también es importante cuando los diagramas, las políticas y los procedimientos requieren actualizaciones. De esta manera, el version control (control de versiones) evita la confusión asociada con el uso de documentos desactualizados o inconsistentes.
+
+Evaluar cómo un cambio afecta las políticas, procedimientos y diagramas existentes es esencial. Por lo tanto, los planes de administración de cambios  deben incluir disposiciones que requieran la actualización de estos documentos como parte de la implementación. La frecuencia de actualización de los diagramas y la documentación puede variar, pero por lo general se actualizan cada vez que se implementan cambios o modificaciones significativos en un proceso, sistema o aplicación. Una vez que se hayan actualizados correctamente los documentos, las nuevas versiones deben etiquetarse claramente, y las versiones anteriores deben archivarse, pero deben seguir disponibles para su referencia. Los cambios importantes pueden requerir capacitaciones para los equipos o departamentos relevantes.
+
+La administración de cambios es un aspecto crucial de la implementación de cambios en un sistema o aplicación. Al evaluar las posibles implicaciones técnicas de estos cambios, las organizaciones pueden tomar las medidas necesarias para minimizar las interrupciones. Una administración de cambios  efectiva requiere de un seguimiento de procesos específicos, como el desarrollo de planes de implementación y la realización de procedimientos de prueba exhaustivos. A través de la administración de cambios , el equipo de liderazgo puede garantizar que cualquier cambio realizado sea exitoso y contribuya de forma positiva a la organización.
+
+A continuación, se detallan algunos ejemplos de documentación afectada por la administración de cambios:
+
+![[Pasted image 20250407070516.png]]
+
+
+Las políticas y los procedimientos deben cambiar con la misma frecuencia que la tecnología, ¡lo que sucede con bastante frecuencia!

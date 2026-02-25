@@ -1,0 +1,19 @@
+Para aplicar políticas y procedimientos de protección de datos, es posible que las organizaciones más pequeñas tengan que clasificar los datos y tipificarlos de forma manual. Sin embargo, aquellas organizaciones que generan y recopilan grandes cantidades de datos personales deben contar con herramientas de automatización que les ayuden en esta tarea. También podría tener que proteger datos valiosos de propiedad intelectual (PI). Los productos de prevención de pérdida de datos (DLP) automatizan el descubrimiento y clasificación de los tipos de datos y aplican reglas que impiden su visualización o transferencia sin la debida autorización. Dichas soluciones generalmente constarán de los siguientes componentes:
+
+Servidor de políticas: para configurar la clasificación, la confidencialidad, las reglas y políticas de privacidad, y también para registrar incidentes y recopilar informes.
+Agentes de punto de conexión: para aplicar políticas en computadoras cliente, incluso cuando no están conectadas a la red.
+Agentes de red: para escanear las comunicaciones en los límites de la red e interactuar con los servidores web y de mensajería para aplicar la política.
+Los agentes de DLP escanean contenidos en formatos estructurados, como una base de datos con un modelo formal de control de acceso, o en formatos no estructurados, como el correo electrónico o los documentos de procesamiento de textos. Se aplica un proceso de descifrado de archivos a los datos no estructurados para convertirlos en un formato escaneable coherente. La transferencia de contenidos a soportes extraíbles, como dispositivos USB, o por correo electrónico, mensajería instantánea o, incluso, servicios de redes sociales puede entonces bloquearse si no se ajusta a una política predefinida. La mayoría de las soluciones de DLP pueden ampliar los mecanismos de protección a los servicios de almacenamiento en la nube, al recurrir a un proxy que medie el acceso o a la API del proveedor de servicios en la nube para llevar a cabo el escaneo y hacer cumplir las políticas. 
+
+![[Pasted image 20250407083440.png]]
+
+
+Creación de una política de DLP en Office 365. (Captura de pantalla utilizada con el permiso de Microsoft).
+
+La remediación es la acción que lleva a cabo el software de DLP cuando detecta una infracción a una política. A continuación, se enumeran los mecanismos de remediación más comunes:
+
+Solo alerta: se permite la copia de archivos, pero el sistema de gestión la registrará como un incidente y podría alertar a un administrador.
+Bloqueo: se le impide al usuario copiar el archivo original, pero puede seguir accediendo a él. El usuario puede o no recibir una alerta sobre la infracción de la política, pero el sistema de gestión lo registrará como un incidente.
+Cuarentena: se niega el acceso al archivo original al usuario (o a la mayoría de usuarios). Para ello, se cifra el archivo en su ubicación o se lo traslada a un área de cuarentena en el sistema de archivos.
+Marcador: el archivo original entra en cuarentena y se reemplaza por uno que describe la violación de la política y cómo el usuario puede recuperarlo.
+Cuando se configura para proteger un canal de comunicaciones, como el correo electrónico, la remediación para DLP puede llevarse a cabo a través de mecanismos del lado del cliente o del lado del servidor. Por ejemplo, algunas soluciones de DLP impiden que se adjunten archivos al correo electrónico antes de enviarlo. Otros pueden escanear los archivos adjuntos y el contenido del mensaje y, a continuación, eliminar determinados datos o impedir que el correo electrónico llegue a su destino.

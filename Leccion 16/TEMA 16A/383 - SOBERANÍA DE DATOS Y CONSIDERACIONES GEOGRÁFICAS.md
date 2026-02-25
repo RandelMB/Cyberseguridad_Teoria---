@@ -1,0 +1,18 @@
+Algunos estados y naciones pueden respetar la privacidad de los datos más o menos que otros. Del mismo modo, algunas naciones pueden desaprobar la naturaleza y el contenido de ciertos datos. Incluso pueden sospechar de medidas de seguridad como el cifrado. Cuando sus datos se almacenan o se transmiten en otras jurisdicciones, o cuando recopila datos de ciudadanos en otros estados o países, es probable que no pueda “poseer” los datos de la misma manera que esperaría o desearía. 
+
+Soberanía de los datos
+La data sovereignty (soberanía de los datos) se refiere a una jurisdicción que impide o restringe que el procesamiento y almacenamiento tengan lugar en sistemas que no residen físicamente dentro de dicha jurisdicción. La soberanía de los datos puede exigir ciertas concesiones de su parte, como el uso de instalaciones de almacenamiento ubicadas en locaciones específicas dentro de un servicio en la nube.
+
+Por ejemplo, las protecciones del RGPD se aplican a todos los ciudadanos de la Unión Europea mientras se encuentren dentro de las fronteras de la UE o del Espacio Económico Europeo (EEE). Los sujetos de datos pueden dar su consentimiento para permitir una transferencia, pero debe haber una opción significativa para que puedan negarse a darlo. Si la jurisdicción de destino de la transferencia no proporciona regulaciones de privacidad adecuadas (a un nivel comparable al del RGPD), entonces se deben brindar garantías contractuales para extender los derechos del RGPD al sujeto de datos. En los Estados Unidos, las empresas pueden autocertificar que las protecciones que ofrecen son adecuadas bajo el esquema del Escudo de Privacidad (privacyshield.gov/US-Businesses).
+
+Mantener el cumplimiento de los requisitos de soberanía de datos requiere varios enfoques. Las organizaciones garantizan la localización de datos almacenando y procesando datos en centros de datos o proveedores de servicios en la nube que se encuentran dentro de los límites legales o geográficos definidos. Además, los acuerdos contractuales con proveedores y prestadores de servicios garantizan que los datos permanezcan dentro de los límites aprobados al definir responsabilidades, restricciones y salvaguardas obligatorias.
+
+Consideraciones geográficas
+Los requisitos de acceso geográfico se dividen en dos escenarios diferentes:
+
+Es posible que haya que seleccionar cuidadosamente las ubicaciones de almacenamiento para mitigar los problemas de soberanía de datos. La mayoría de los proveedores de servicios en la nube ofrecen la opción de seleccionar entre diversos centros de datos para el procesamiento y almacenamiento, lo que garantiza que la información no sea transferida ilegalmente desde una jurisdicción de privacidad específica sin consentimiento.
+Empleados que necesitan acceso desde múltiples ubicaciones geográficas. Los servicios de bases de datos y archivos en la nube pueden aplicar controles de acceso basados en restricciones para validar la ubicación geográfica del usuario antes de autorizar el acceso.
+Las restricciones geográficas impactan otras funciones comerciales:
+
+Los requisitos de geolocalización afectan las prácticas de protección de datos al exigir a las organizaciones que garanticen que los datos permanezcan dentro de los límites designados, como la utilización de centros de datos o proveedores de servicios en la nube locales. Las restricciones de geolocalización afectan a las prácticas de protección de datos, como la replicación y la dispersión de datos.
+Los requisitos de geolocalización afectan las investigaciones de incidentes y las actividades forenses debido a que suelen incluir restricciones de acceso e intercambio de datos específicos de la jurisdicción, así com otros requisitos legales.

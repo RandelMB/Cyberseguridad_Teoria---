@@ -1,0 +1,9 @@
+Por lo general, los servidores web se configuran para registrar el tráfico HTTP que encuentra un error o el tráfico que coincide con algún conjunto de reglas predefinido. Esto puede preservar los indicadores de ataques de reproducción, falsificación e inyección intentados y exitosos.
+
+El código de estado de una respuesta puede revelar bastante sobre la solicitud y el comportamiento del servidor. Los códigos en el rango 400 indican errores basados en el cliente, mientras que los códigos en el rango 500 indican errores basados en el servidor. Por ejemplo, las respuestas 403 repetidas (“Prohibido”) pueden indicar que el servidor está rechazando los intentos de un cliente de acceder a recursos para los que no está autorizado. Una respuesta 502 (“Puerta de enlace incorrecta”) podría indicar que se están bloqueando las comunicaciones entre el servidor de destino y su servidor ascendente, o que el servidor ascendente está caído.
+
+Además de los códigos de estado, algunos programas de servidor web también registran la información del encabezado HTTP tanto para las solicitudes como para las respuestas. Esto puede proporcionar una imagen detallada de la composición de cada solicitud o respuesta, como la información de las cookies. 
+
+![[Pasted image 20250404083348.png]]
+
+Registro de acceso al servidor web que muestra un cliente ordinario (203.0.113.66) que accede a una página y sus recursos de imagen asociados, y luego escanea la actividad desde la aplicación Nikto que se ejecuta en 203.0.113.66. La actividad de escaneo genera múltiples errores 404 mientras intenta representar la superficie de ataque de la aplicación web enumerando directorios y archivos comunes.

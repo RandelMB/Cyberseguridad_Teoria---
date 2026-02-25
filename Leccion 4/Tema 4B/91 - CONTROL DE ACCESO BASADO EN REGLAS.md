@@ -1,0 +1,5 @@
+El control de acceso basado en reglas hace referencia a cualquier tipo de modelo de control de acceso en el que las políticas de control de acceso están determinadas por reglas impuestas por el sistema en lugar de por los usuarios del sistema. Algunos ejemplos de control de acceso basado en reglas (o no discrecional) son RBAC, ABAC y MAC. 
+
+El acceso condicional es un ejemplo de control de acceso basado en reglas. Un sistema de acceso condicional supervisa el comportamiento de la cuenta o del dispositivo durante una sesión. Si se cumplen determinadas condiciones, puede suspender la cuenta o exigir al usuario que se vuelva a autenticar, tal vez mediante un método de verificación de dos pasos. 
+
+El control de cuentas de usuario (UAC) y las restricciones de sudo en cuentas con privilegios son ejemplos de acceso condicional. Se solicita al usuario la confirmación o autenticación al realizar solicitudes que requieren privilegios elevados. La gestión de derechos basada en funciones y los sistemas ABAC pueden aplicar una serie de criterios al acceso condicional, como las políticas basadas en la ubicación.

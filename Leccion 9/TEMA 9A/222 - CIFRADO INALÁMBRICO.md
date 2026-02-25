@@ -1,0 +1,36 @@
+
+Además del diseño del sitio, una red inalámbrica debe estar configurada con parámetros de seguridad. Sin encriptación, cualquiera dentro del alcance puede interceptar y leer los paquetes que pasan por la red inalámbrica. Las opciones de seguridad vienen determinadas por la compatibilidad del dispositivo con los distintos estándares de seguridad Wi-Fi, por el tipo de infraestructura de autenticación y por la finalidad de la WLAN. El estándar de seguridad determina qué protocolos criptográficos se admiten, los medios para generar la clave de cifrado y los métodos disponibles para autenticar las estaciones inalámbricas cuando intentan unirse (o asociarse) a la red.
+
+La primera versión de acceso protegido Wi-Fi (WPA) se diseñó para solucionar vulnerabilidades críticas del anterior estándar de privacidad equivalente por cable (WEP). Al igual que WEP, la versión 1 de WPA utiliza el cifrado de flujo RC4, pero agrega un mecanismo denominado protocolo temporal de integridad de clave (TKIP) para hacerlo más fuerte.
+
+![[Pasted image 20250317175246.png]]
+
+Description
+Las configuraciones son las siguientes. OFDMA está habilitado. Smart connect no está habilitado. 2.4 Gigahercios está habilitado. Nombre de la red (SSID): TP-Link_22DD. Seguridad: WPA/WPA2-Personal. Versión: WPA2-PSK. Encriptación: AES. Contraseña: tplinkpassword. Potencia de transmisión: alta. Ancho de canal: automático. Canal: automático. Modo: 802.11b/g/n mixto. 5 Gigahercios está habilitado. Nombre de la red (SSID): TP-Link_22DD_5G. Seguridad: WPA2/WPA3-Personal. Versión: WPA3-SAE. Contraseña: tplinkpassword. Potencia de transmisión: alta. Ancho de canal: automático. Canal: automático. Modo: 802.11ax solo.
+
+
+
+Configuración de un punto de acceso SOHO de TP-LINK con ajustes de cifrado y autenticación inalámbricos. En este ejemplo, la banda de 2,4 GHz permite conexiones heredadas con seguridad WPA2-Personal, mientras que la red de 5 GHz es para dispositivos con capacidad 802.11ax (Wi-Fi 6) que utilizan autenticación WPA3-SAE. (Captura de pantalla utilizada con el permiso de TP-Link Technologies).
+
+Configuración protegida Wi-Fi (WPS)
+Debido a que configurar un punto de acceso de manera segura es relativamente complejo para los consumidores residenciales, los proveedores desarrollaron un sistema para automatizar el proceso llamado configuración protegida Wi-Fi (WPS). Para usar WPS, tanto el punto de acceso como la estación inalámbrica (dispositivo cliente) deben tener capacidad para WPS. Por lo general, los dispositivos tienen un botón de comando. Al activarlo en el punto de acceso y en el adaptador en simultáneo, los dispositivos se asociarán mediante un PIN y, a continuación, el adaptador se asociará con el punto de acceso mediante WPA2. El sistema genera una SSID y una PSK aleatorias. Si los dispositivos no son compatibles con el método del botón de comando, se puede ingresar el PIN (impreso en el WAP) de manera manual.
+
+Lamentablemente, la WPS es vulnerable a un ataque de fuerza bruta. Si bien el PIN tiene ocho caracteres, un dígito es una suma de comprobación y el resto se verifican como dos PIN separados de cuatro y tres caracteres. Estos PIN independientes son muchos órdenes de magnitud más sencillos de descifrar por fuerza bruta, y por lo general solo se necesitan horas para descifrarlos. En algunos modelos, deshabilitar la WPS a través de la interfaz de administración en realidad no deshabilita el protocolo, o no hay ninguna opción para deshabilitarlo. Algunos puntos de acceso pueden bloquear a un intruso si se detecta un ataque de fuerza bruta, pero en algunos casos, el ataque simplemente se puede reanudar cuando expira el período de bloqueo. 
+
+Para contrarrestarlo, se puede aumentar el período de bloqueo. Sin embargo, esto puede dejar a los puntos de acceso vulnerables a un ataque por denegación de servicio (DoS). Al aprovisionar un WAP, es fundamental verificar qué medidas tomó el fabricante para que su implementación de WPS sea segura, y utilizar el nivel de firmware del dispositivo requerido identificado como seguro.
+
+El método Easy Connect, que se anunció junto con WPA3, pretende reemplazar a WPS como un método de configuración segura de los dispositivos cliente con la información necesaria para acceder a una red Wi-Fi. Easy Connect es un nombre de marca para el protocolo de aprovisionamiento de dispositivos (DPP). 
+
+Todos los dispositivos que participan deben estar configurados con un par de claves pública y privada. Easy Connect utiliza códigos de respuesta rápida (QR) o etiquetas de comunicación de campo cercano [NFC] para comunicar la clave pública de cada dispositivo. Un teléfono inteligente se registra como aplicación de configuración de Easy Connect y se asocia al WAP mediante su código QR. A continuación, cada dispositivo cliente se puede asociar al escanear su código QR o etiqueta NFC en la aplicación de configuración. Además de solucionar los problemas de seguridad asociados a WPS, se trata de una forma sencilla de configurar dispositivos de Internet de las cosas [IoT] sin periféricos con conectividad Wi-Fi.
+
+Acceso protegido Wi-Fi 3 (WPA3)
+Ni la WEP ni la versión WPA original se consideran lo suficientemente seguras para su uso continuado. WPA2 utiliza el cifrado Estándar de cifrado avanzado [AES] con clave de 128 bits, desplegado dentro del protocolo de código de autenticación para mensajes en cadena de bloques de cifrado (CCMP). El AES reemplaza el RC4 y el CCMP reemplaza el TKIP. El CCMP proporciona cifrado autenticado, que está diseñado para dificultar los ataques de reinyección.
+
+Las debilidades que se encontraron en WPA2 llevaron a su reemplazo previsto por WPA3. Las principales características de WPA3 son las siguientes:
+
+ - Autenticación simultánea de iguales [SAE]: reemplaza el protocolo de intercambio Clave previamente compartida [PSK] en WPA2, lo que garantiza que un atacante no pueda interceptar la contraseña de Wi-Fi incluso cuando captura datos de un inicio de sesión exitoso.
+- Enhanced Open (mejorada abierta): cifra el tráfico entre los dispositivos y el punto de acceso, incluso sin una contraseña, lo que aumenta la privacidad y la seguridad en las redes abiertas.
+- Protocolos criptográficos actualizados: reemplaza AES CCMP con el modo de operación Protocolo de modo de contador de Galois [GCMP]. Los métodos de autenticación empresarial deben usar AES de 192 bits, mientras que la autenticación personal puede usar 128 bits o 192 bits.
+- Wi-Fi Easy Connect: permite conectar dispositivos al escanear un código QR, lo que reduce la necesidad de configuraciones complicadas mientras se mantiene la seguridad de las conexiones.
+
+El rendimiento de Wi-Fi también depende de la compatibilidad del dispositivo con los últimos 802.11 standards (Estándares 802.11). La generación más reciente (802.11ax) se comercializa como Wi-Fi 6. Los estándares anteriores se denominan Wi-Fi 5 (802.11ac) y Wi-Fi 4 (802.11n) de manera retroactiva. Los estándares de rendimiento se desarrollan en paralelo con las especificaciones de seguridad WPA. La mayoría de los dispositivos Wi-Fi 6 y algunos productos Wi-Fi 5 y Wi-Fi 4 deben admitir WPA3 de forma nativa o con una actualización de firmware/controlador.

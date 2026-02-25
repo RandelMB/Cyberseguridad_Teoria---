@@ -1,0 +1,8 @@
+
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+4.3 Explicar diversas actividades asociadas con la gestión de vulnerabilidades.
+
+El escaneo de vulnerabilidades es una tarea fundamental dentro de un programa de gestión de vulnerabilidades. Se utilizan procesos de escaneo automatizados para identificar y evaluar posibles problemas. Los análisis de vulnerabilidades se centran en redes, sistemas operativos, aplicaciones y otras áreas funcionales para detectar vulnerabilidades conocidas, incluidas las configuraciones inseguras, versiones de software obsoletas o parches de seguridad faltantes. Se requiere un escaneo regular para mantener una imagen precisa de la postura de seguridad de una organización e identificar nuevas vulnerabilidades. 
+
+Los informes sobre amenazas desempeñan un papel vital en la mejora de la efectividad de la gestión de vulnerabilidades al proporcionar información en tiempo real sobre amenazas emergentes y vulnerabilidades recientemente descubiertas. Los informes sobre amenazas alimentan con datos agregados de diversas fuentes, incluidos los de investigadores de ciberseguridad, proveedores y comunidades de seguridad globales, y se integran en herramientas de escaneo de vulnerabilidades para mejorar sus capacidades de detección. Al aprovechar los informes sobre amenazas, las organizaciones pueden anticiparse ante el panorama de amenazas, lo que les permite priorizar y abordar las vulnerabilidades más críticas antes de que los atacantes puedan explotarlas.

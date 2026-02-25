@@ -1,0 +1,7 @@
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+5.3 Explicar los procesos asociados con la evaluación y gestión de riesgos de terceros.
+
+La evaluación de riesgos de terceros implica varios procesos importantes que son parte integral de las prácticas efectivas de gestión de riesgos. Estos procesos incluyen la debida diligencia del proveedor, la identificación y evaluación de riesgos, el monitoreo continuo y la planificación de respuesta ante incidentes. La diligencia debida de los proveedores implica evaluar y seleccionar a los proveedores en función de sus prácticas de seguridad, estabilidad financiera, cumplimiento normativo y reputación. La identificación y evaluación de riesgos incluye la identificación de riesgos potenciales asociados con las relaciones con los proveedores y la evaluación de su impacto potencial en las operaciones, los datos y la reputación de la organización. El monitoreo continuo garantiza que los proveedores mantengan controles de seguridad, cumplan con las obligaciones contractuales y aborden con prontitud los riesgos o vulnerabilidades identificados. 
+
+Estos procesos son fundamentales en las prácticas de gestión de riesgos, ya que ayudan a las organizaciones a identificar, evaluar y mitigar los riesgos asociados a las relaciones con terceros. Las organizaciones pueden gestionar y reducir los riesgos de manera proactiva mediante la implementación de procesos sólidos de evaluación de riesgos de terceros, la protección de los activos, el mantenimiento del cumplimiento normativo y el fomento de un entorno operativo seguro y protegido.

@@ -1,0 +1,16 @@
+Un diseño de autenticación que utiliza solo contraseñas o un solo factor de conocimiento se considera débil. Las contraseñas secretas son demasiado vulnerables para ser confiables. Se pueden utilizar otros tipos de factores de autenticación para complementar o reemplazar los inicios de sesión basados en contraseñas. Una tecnología de multifactor authentication (MFA) [aunteticación de multifactores (MFA)] combina el uso de más de un tipo de factor. 
+
+Factor: algo que la persona tiene
+Algo que la persona tiene es un factor de propiedad. Significa que el titular de la cuenta posee algo que nadie más tiene, como una tarjeta inteligente, un key fob (o llavero criptográfico) o un teléfono inteligente que puede generar o recibir un token criptográfico.
+
+Factor: algo que la persona es
+Algo que la persona es se refiere a un factor biométrico o de inherencia. Un factor biométrico utiliza identificadores fisiológicos, como una huella digital o un escáner facial, o identificadores de comportamiento, como la forma de moverse (marcha). Los identificadores se escanean y se registran como una plantilla. Cuando el usuario se autentica, se realiza otro escaneo y se compara con la plantilla.
+
+Factor: algún lugar donde está la persona
+“Algún lugar donde está la persona” significa que el sistema aplica un factor basado en la ubicación a una decisión de autenticación. La autenticación basada en la ubicación mide algunas estadísticas sobre dónde se encuentra la persona. Esta podría ser una ubicación geográfica medida por medio del servicio de ubicación de un dispositivo o su dirección de red de Protocolo de Internet (IP). La dirección IP de un dispositivo podría usarse para referirse a un segmento de red lógico, o podría vincularse a una ubicación geográfica mediante un servicio de geolocalización. Dentro de una red local, la ubicación del puerto físico, la LAN virtual (VLAN) o la red Wi-Fi también se pueden convertir en la base de la autenticación basada en la ubicación.
+
+La autenticación basada en la ubicación no se utiliza como un factor de autenticación principal, pero puede emplearse como un mecanismo de autenticación continua o como una función de control de acceso. Por ejemplo, si un usuario ingresa las credenciales correctas en una puerta de enlace de acceso remoto, pero su dirección IP muestra que está en un país diferente al esperado, se pueden aplicar controles de acceso para restringir los privilegios otorgados o rechazar el acceso por completo. Otro ejemplo es cuando un usuario parece iniciar sesión desde múltiples ubicaciones geográficas que serían físicamente imposibles con el tiempo de viaje.
+
+La multifactor authentication (autenticación de multifactores) requiere una combinación de diferentes tecnologías. Por ejemplo, solicitar un PIN junto con la fecha de nacimiento puede ser más fuerte que ingresar solo un PIN, pero no es una opción de multifactores.
+
+También puede ver referencias a la autenticación de dos factores (2FA). Esto solo significa que hay precisamente dos factores involucrados, como una tarjeta inteligente de titularidad o un identificador biométrico con algo que usted conoce, como una contraseña o un PIN. 

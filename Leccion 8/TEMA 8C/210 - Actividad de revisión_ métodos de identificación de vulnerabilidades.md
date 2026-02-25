@@ -1,0 +1,5 @@
+Responda las siguientes preguntas:
+
+1. Recibe un aviso urgente de amenaza y necesita configurar un escaneo de vulnerabilidades de red para verificar la presencia de un CVE relacionado en su red. ¿Qué comprobación de configuración debe realizar en el software de escaneo de vulnerabilidades antes de ejecutar el análisis?
+2. Su CEO quiere saber si la plataforma de inteligencia de amenazas de la empresa hace un uso eficaz de OSINT. ¿Qué significa OSINT?
+3. Una pequeña empresa a la que brinda soporte de consultoría de seguridad se ha resistido a invertir en una plataforma de gestión de eventos e inteligencia de amenazas. El CEO está preocupado por un riesgo APT conocido por atacar las cadenas de suministro dentro del sector industrial de la empresa y quiere que escanee los sistemas en busca de cualquier indicio de que ya hayan sido atacados. ¿Cuáles son los desafíos de cumplir con esta solicitud, dada la falta de inversión?

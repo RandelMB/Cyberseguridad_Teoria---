@@ -1,0 +1,8 @@
+Análisis y corrección de vulnerabilidades
+OBJETIVOS DEL EXAMEN CUBIERTOS
+
+4.3 Explicar diversas actividades asociadas con la gestión de vulnerabilidades. 
+
+El análisis y la corrección de vulnerabilidades son etapas críticas en la gestión de vulnerabilidades. El análisis de vulnerabilidades consiste en evaluar las vulnerabilidades por su potencial impacto y capacidad de explotación. Este proceso podría considerar factores como la facilidad de explotación, el daño potencial de una explotación exitosa, el valor del activo vulnerable y el panorama actual de amenazas. 
+
+El análisis de vulnerabilidades permite priorizar los esfuerzos de corrección, garantizando que primero se aborden las vulnerabilidades más críticas. La corrección describe cómo se abordan las vulnerabilidades para mitigar su riesgo potencial. Las técnicas de mitigación generalmente incluyen la aplicación de parches, el cambio de configuraciones, la actualización de software o la sustitución de sistemas vulnerables. Cuando una corrección inmediata es imposible, los controles compensatorios describen planes alternativos para reducir el riesgo. La verificación de la efectividad de los esfuerzos de corrección se lleva a cabo a través de varios métodos, incluida la ejecución de un nuevo escaneo de los sistemas afectados. Las organizaciones pueden mejorar significativamente su resiliencia contra los ciberataques analizando y corrigiendo cuidadosamente las vulnerabilidades.

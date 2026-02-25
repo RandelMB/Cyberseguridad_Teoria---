@@ -1,0 +1,13 @@
+
+
+Si bien la detección de intrusiones se produjo originalmente como software o dispositivos independientes, su funcionalidad se incorporó rápidamente a una nueva generación de cortafuegos. El cortafuegos original de próxima generación (NGFW) fue lanzado en 2010 en Palo Alto. No existe una especificación oficial para lo que un NGFW puede hacer, pero las siguientes características son típicas:
+
+Filtrado sensible a las aplicaciones de capa 7, incluida la inspección del tráfico cifrado de seguridad de la capa de transporte (TLS).
+Integración con directorios de red, que facilita el contenido por usuario o por rol, y políticas de filtrado basadas en el tiempo, para proporcionar una mejor protección contra una amenaza interna.
+Funcionalidad del sistema de prevención de intrusiones (IPS). Los cortafuegos de próxima generación pueden combinar las funcionalidades tradicionales del cortafuegos con capacidades avanzadas, como la inspección profunda de paquetes, la prevención de intrusiones y el conocimiento de las aplicaciones.
+Integración con redes en la nube.
+La administración de amenazas unificadas (UTM) se refiere a un producto de seguridad que centraliza muchos tipos de controles de seguridad, como cortafuegos, antimalware, prevención de intrusiones en la red, filtrado de spam, filtrado de contenido, prevención de pérdida de datos, redes privadas virtuales (VPN), puerta de enlace de acceso a la nube y protección de punto final/escaneo de malware, en un solo dispositivo. Significa que el monitoreo y la administración de diversos controles se consolidan en una sola consola. Sin embargo, la UTM tiene algunas desventajas. Cuando una defensa está unificada bajo un único sistema, se crea la posibilidad de un único punto de falla que podría afectar a toda una red. Los distintos sistemas de seguridad, si fallan, solo podrían comprometer esa vía de ataque en particular. 
+
+Además, los sistemas UTM pueden tener problemas de latencia si están sujetos a demasiada actividad de red. Incluso es posible que un UTM no funcione tan bien como el software o como un dispositivo con una sola función de seguridad exclusiva.
+
+En cierta medida, NGFW y UTM son solo términos de marketing. UTM se implementa comúnmente en pequeñas y medianas empresas que requieren una solución de seguridad integral, pero que tienen recursos y experiencia en TI limitados. Un UTM es como una solución llave en mano para "hacerlo todo", mientras que un NGFW es un producto empresarial con menos funciones, pero con mejor rendimiento. 
